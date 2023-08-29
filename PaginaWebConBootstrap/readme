@@ -1,0 +1,3 @@
+En este proyecto utilice Bootstrap 5.3.1 que ya viene sin jquery a trvez del CDN...
+Me tome la libertad de agregar el Css a travez de link, para no llenar mi index 
+usando atributos in line o etiquetas aunque en casos muy puntuales los use..

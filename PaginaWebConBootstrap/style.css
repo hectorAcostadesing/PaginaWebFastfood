@@ -1,0 +1,123 @@
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+header{
+    background: url(./asset/imagen/fondo6.jpg);
+    background-size: cover;
+    position: sticky;
+    top: 1px;
+    z-index: 1000;
+}
+
+body{
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30,35,38,.8)),url(./asset/imagen/fondo7.jpg);
+    width: 100%;
+    height: 100vh;
+  }
+
+.navbar{
+      background-color: #e93a00;
+      color: white;
+      position:sticky;
+      z-index: 1000;
+      top: 121px; 
+  }
+      
+.card{
+    margin: auto;
+    margin-top: auto;
+  }
+.card-deck{
+    display: flex;
+  }
+  .card-body{
+    background-color: rgb(229, 229, 218);
+  }
+  .card-deck img:hover{
+    transform: scale(1.6);
+  }
+.btn:hover{
+    transform: scale(1.2);
+    
+  }
+.navbar a{
+    font-family: Poppins, sans-serif;
+    color: white ;
+}
+    
+.navbar a:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+  }
+h2{
+    font-family: Poppins, sans-serif;
+    color: white;
+  }
+h2:hover{
+    color: #e93a00;
+  }
+h3{
+    font-family: Poppins, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+h4{
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+
+.footer-copyright{
+    background: #e93a00;
+    color: rgb(246, 242, 242);
+    margin-top: 15px;
+    font-size: 14px;
+  }
+.footer-copyright a{
+    color: rgb(246, 242, 242);
+    font-size: 14px;
+}
+  .carousel-inner{
+    border-radius: 8px;
+  }
+  .carousel-inner h1{
+    color: rgb(19, 20, 60);
+    text-shadow: 0px 1px 5px white;
+
+  }
+  .carousel-inner  p{
+    color: rgb(19, 20, 60);
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    text-shadow: 0px 1px 4px white;
+  }
+  .btn-secondary a{
+    text-decoration: none;
+    color: white;
+  }
+  .form-group{
+    display: block;
+    color: white;
+  }
+  #text-respuesta{
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  #respuesta{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
